@@ -27,6 +27,7 @@ flowchart TD
     I  --> D
 ```
 ## Subrutinas
+Posicionamiento de la Arepa:
 ```mermaid
 ---
 config:
@@ -44,6 +45,7 @@ flowchart TD
     G_1 --> H_1(["Fin"])
 ```
 
+Giro de la Arepa
 ```mermaid
 ---
 config:
@@ -62,6 +64,8 @@ flowchart TD
     G_2 --> H_2["Ir a Home"]
     H_2 --> I_2(["Fin"])
 ```
+
+Salida de la Arepa
 ```mermaid
 ---
 config:
