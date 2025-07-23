@@ -1,5 +1,5 @@
 # Proyecto Final - Robótica Industrial: Automatización del Proceso de Preparación de Arepas
-## Gripper
+## Descripción de la solución planteada  <!--  el proceso de alistamiento, herramientas y piezas utilizadas -->
 
 
 
@@ -85,5 +85,13 @@ flowchart TD
 ```
 
 
+Diagrama de flujo de las acciones del robot, con sus respectivas descripciones.
+Descripci´on, planos y fotograf´ıas del gripper dise˜nado y sus piezas para el proceso de alistamiento.
+Modelo en Software de Simulaci´on predeterminado del entorno rob´otico con todos los elementos que
+intervienen en el proceso.
+C´odigo fuente comentado y discutido del m´odulo utilizado para el desarrollo del proyecto.
+Comparaci´on del tiempo de alistamiento manual y de operaci´on automatizada para las combinaciones
+seleccionadas.
+V´ıdeo
 
 
