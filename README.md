@@ -4,7 +4,7 @@
 
 
 
-## Diagrama de Flujo
+## Diagrama de Flujo  <!-- descripciones-->
 ```mermaid
 ---
 config:
@@ -84,14 +84,15 @@ flowchart TD
     G_3 --> H_3(["Fin"])
 ```
 
+## Gripper <!-- Descripci´on, planos y fotograf´ıas-->
 
-Diagrama de flujo de las acciones del robot, con sus respectivas descripciones.
-Descripci´on, planos y fotograf´ıas del gripper dise˜nado y sus piezas para el proceso de alistamiento.
-Modelo en Software de Simulaci´on predeterminado del entorno rob´otico con todos los elementos que
-intervienen en el proceso.
-C´odigo fuente comentado y discutido del m´odulo utilizado para el desarrollo del proyecto.
-Comparaci´on del tiempo de alistamiento manual y de operaci´on automatizada para las combinaciones
-seleccionadas.
-V´ıdeo
+
+## Modelo en Software de Simulación <!-- predeterminado del entorno robótico con todos los elementos que intervienen en el proceso-->
+
+
+## Comparación del tiempo de alistamiento manual y de operación automatizada para las combinaciones seleccionadas.
+
+
+## Video
 
 
