@@ -13,6 +13,8 @@ Stivens Camilo Guevara Moran
 
 
 ## Diagrama de Flujo  <!-- descripciones-->
+En general, se muestra el planteamiento de la lógica del progrma, que al elegir una arepa la dirige a la posición disponible, considerando el orden (A1, A2, B1, B2). Tras un tiempo gira la arepa y tras otra cantidad de tiempo, retira la arepa de la parrilla.
+
 ```mermaid
 ---
 config:
@@ -36,6 +38,9 @@ flowchart TD
 ```
 ## Subrutinas
 Posicionamiento de la Arepa:
+
+Para el posicionamiento de la arepa en el lugar deseado de la parrilla, el manipulador se dirige a la arepa, la sujeta, la mueve al lugar esperado y la suelta, iniciando un temporizador para el giro de la arepa.
+
 ```mermaid
 ---
 config:
@@ -53,7 +58,8 @@ flowchart TD
     G_1 --> H_1(["Fin"])
 ```
 
-Giro de la Arepa
+Giro de la Arepa:
+Cuando el temporizador supera un limite establecido, el manipulador se dirige a la arepa, la sujeta, realiza un giro en la ultima articulación, y deja la arepa en la posición inicial. Además inicia un temporizador que dara lugar a la subrutina de salida.
 ```mermaid
 ---
 config:
@@ -73,7 +79,9 @@ flowchart TD
     H_2 --> I_2(["Fin"])
 ```
 
-Salida de la Arepa
+Salida de la Arepa:
+Al superar el temporizador un tiempo determinado, el manipulador se dirige a la arepa, la sujeta, se dirige a la posición inicial de la arepa en toda la rutina y deja la arepa.
+
 ```mermaid
 ---
 config:
