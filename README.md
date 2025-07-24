@@ -1,4 +1,8 @@
 # Proyecto Final - Robótica Industrial: Automatización del Proceso de Preparación de Arepas
+Jenny Ximena Ordoñez Espinosa
+Juan Felipe Hincapie Gomez
+Santiago Zamora Sosa
+Stivens CAmilo Guevara Moran
 ## Descripción de la solución planteada  <!--  el proceso de alistamiento, herramientas y piezas utilizadas -->
 
 
