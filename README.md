@@ -100,7 +100,11 @@ flowchart TD
     G_3 --> H_3(["Fin"])
 ```
 
-## Gripper <!-- Descripci´on, planos y fotograf´ıas-->
+## Gripper Diseñado <!-- Descripci´on, planos y fotograf´ıas-->
+Para el diseño del grrpper inicialmente se planteo el problema de dejar la arepa en una posición exacta al momento de voltearla, esto para facilitar la recogida de la arepa una vez haya finalizado la coccion de la arepa en ambos lados. Por ello se diseño un gripper tal que este no tenga un angulo respecto al plano "no" del efector final. Al principio se penso dejar una distancia entre el plano "no" del efector final y la cara inferior del gripper, pero volveriamos a tener el mismo problema, y al moemnto de girar la arepa se tendria que soltar la arepa en el aire, y habria una incertidumbre considerable de la posicion donde cae la arepa. Una vez se discutio y se dejo claro como queriamos realizar el gripper, se procedio a escoger un actuador neumatico de los que habian disponibles en el laboratorio, por lo que se escoguio un actuador neumático de doble efecto de pinzas, esto debido a la facilidad de acoples entre el actuador y el gripper, y su movimiento cumplia perfectamente con nuestra nececidad. Dicho actuador se ve acontinuacion:
+
+<img width="400" height="400" alt="Pneumatic-Actuator-Double-Acting-Angular-Finger-Gripper-Mhc2-6D" src="https://github.com/user-attachments/assets/6216be1f-6b97-4f33-838e-5ffbb9342a7d" />
+
 
 
 ## Modelo en Software de Simulación <!-- predeterminado del entorno robótico con todos los elementos que intervienen en el proceso-->
