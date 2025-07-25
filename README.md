@@ -101,9 +101,19 @@ flowchart TD
 ```
 
 ## Gripper Diseñado <!-- Descripci´on, planos y fotograf´ıas-->
-Para el diseño del grrpper inicialmente se planteo el problema de dejar la arepa en una posición exacta al momento de voltearla, esto para facilitar la recogida de la arepa una vez haya finalizado la coccion de la arepa en ambos lados. Por ello se diseño un gripper tal que este no tenga un angulo respecto al plano "no" del efector final. Al principio se penso dejar una distancia entre el plano "no" del efector final y la cara inferior del gripper, pero volveriamos a tener el mismo problema, y al moemnto de girar la arepa se tendria que soltar la arepa en el aire, y habria una incertidumbre considerable de la posicion donde cae la arepa. Una vez se discutio y se dejo claro como queriamos realizar el gripper, se procedio a escoger un actuador neumatico de los que habian disponibles en el laboratorio, por lo que se escoguio un actuador neumático de doble efecto de pinzas, esto debido a la facilidad de acoples entre el actuador y el gripper, y su movimiento cumplia perfectamente con nuestra nececidad. Dicho actuador se ve acontinuacion:
+Para el diseño del gripper, inicialmente se planteó el problema de colocar la arepa en una posición exacta al momento de voltearla, con el fin de facilitar su recogida una vez haya finalizado la cocción por ambos lados. Por esta razón, se diseñó un gripper que no presentara un ángulo con respecto al plano "NO" del efector final.
+
+En un principio se consideró dejar una distancia entre el plano "NO" del efector final y la cara inferior del gripper. Sin embargo, esto generaría nuevamente el mismo inconveniente: al girar la arepa sería necesario soltarla en el aire, lo cual implicaría una incertidumbre considerable sobre su posición final al caer.
+
+Una vez se discutió y definió claramente el enfoque para el diseño del gripper, se procedió a seleccionar un actuador neumático de entre los disponibles en el laboratorio. Se eligió un actuador neumático de doble efecto con pinzas, debido a la facilidad de acople entre este y el gripper, así como a que su movimiento cumplía perfectamente con los requerimientos del proyecto. Dicho actuador se muestra a continuación:
 
 <img width="300" height="400" alt="Pneumatic-Actuator-Double-Acting-Angular-Finger-Gripper-Mhc2-6D" src="https://github.com/user-attachments/assets/6216be1f-6b97-4f33-838e-5ffbb9342a7d" />
+
+Posteriormente, se tomaron las medidas del actuador neumático para diseñar el respectivo acople entre este y las piezas del gripper. Además, se elaboró un modelo CAD del actuador con el objetivo de integrarlo con las piezas del gripper y generar un archivo .SAT que permitiera su uso en simulaciones dentro del software RobotStudio.
+
+Una vez se comprobó el correcto funcionamiento del conjunto gripper-actuador mediante simulaciones, se procedió a la impresión de cada una de las piezas y a su ensamblaje con el actuador neumático.
+
+A continuación, se presentan algunas imágenes del gripper utilizado en el laboratorio, así como los planos correspondientes a cada una de sus piezas.
 
 
 
