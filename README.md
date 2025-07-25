@@ -113,7 +113,7 @@ Posteriormente, se tomaron las medidas del actuador neumático para diseñar el 
 
 Una vez se comprobó el correcto funcionamiento del conjunto gripper-actuador mediante simulaciones, se procedió a la impresión de cada una de las piezas y a su ensamblaje con el actuador neumático.
 
-A continuación, se presentan algunas imágenes del gripper utilizado en el laboratorio, así como los planos correspondientes a cada una de sus piezas.
+A continuación, se presentan algunas imágenes del gripper utilizado para el desarrolo del proyecto en el laboratorio, así como los planos correspondientes a cada una de sus piezas.
 
 
 
