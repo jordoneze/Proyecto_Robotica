@@ -105,7 +105,7 @@ Para el diseño del gripper, inicialmente se planteó el problema de colocar la 
 
 En un principio se consideró dejar una distancia entre el plano "NO" del efector final y la cara inferior del gripper. Sin embargo, esto generaría nuevamente el mismo inconveniente: al girar la arepa sería necesario soltarla en el aire, lo cual implicaría una incertidumbre considerable sobre su posición final al caer.
 
-Una vez se discutió y definió claramente el enfoque para el diseño del gripper, se procedió a seleccionar un actuador neumático de entre los disponibles en el laboratorio. Se eligió un actuador neumático de doble efecto con pinzas, debido a la facilidad de acople entre este y el gripper, así como a que su movimiento cumplía perfectamente con los requerimientos del proyecto. Dicho actuador se muestra a continuación:
+Una vez se discutió y definió claramente el enfoque para el diseño del gripper, se procedió a seleccionar un actuador neumático de entre los disponibles en el laboratorio. Se eligió un actuador neumático de doble efecto con pinzas, debido a la facilidad de acople entre este y el gripper, además de que su movimiento se ajustaba perfectamente con los requerimientos del proyecto. Dicho actuador se muestra a continuación:
 
 <img width="300" height="400" alt="Pneumatic-Actuator-Double-Acting-Angular-Finger-Gripper-Mhc2-6D" src="https://github.com/user-attachments/assets/6216be1f-6b97-4f33-838e-5ffbb9342a7d" />
 
