@@ -125,7 +125,7 @@ https://drive.google.com/file/d/1LHM0yN957CjbFFC0N9y4XC4IoM1QE6WM/view?usp=drive
 
 
 ## Modelo en Software de Simulación <!-- predeterminado del entorno robótico con todos los elementos que intervienen en el proceso-->
-
+La vista del entorno de simulación se puede encontrar en [Vista de Simulación](https://github.com/jordoneze/Proyecto_Robotica/blob/main/Archivos/Vista.png).
 
 ## Comparación del tiempo de alistamiento manual y de operación automatizada para las combinaciones seleccionadas.
 
