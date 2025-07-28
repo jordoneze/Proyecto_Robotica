@@ -1,5 +1,5 @@
 # Proyecto Final - Robótica Industrial: Automatización del Proceso de Preparación de Arepas
-<img src="https://github.com/user-attachments/assets/f8fb29e6-94d2-4b7e-9df8-d85962162055" alt="RobotFoto" width="450"/>
+<img src="https://github.com/user-attachments/assets/f8fb29e6-94d2-4b7e-9df8-d85962162055" alt="RobotFoto" width="500"/>
 
 Jenny Ximena Ordoñez Espinosa
 
