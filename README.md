@@ -118,8 +118,7 @@ A continuación, se presentan algunas imágenes del gripper utilizado para el de
 https://drive.google.com/file/d/1UC6yfvKYaGLpZZxJeFyDLqdk7cKWTK0Z/view?usp=drive_link
 https://drive.google.com/file/d/1LHM0yN957CjbFFC0N9y4XC4IoM1QE6WM/view?usp=drive_link
 
-![GripperFoto](https://github.com/user-attachments/assets/fd39adee-f1b9-490e-963b-8796040a3b9f)
-
+<img src="https://github.com/user-attachments/assets/fd39adee-f1b9-490e-963b-8796040a3b9f" alt="GripperFoto" width="300"/>
 
 
 
