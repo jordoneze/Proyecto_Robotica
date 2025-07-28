@@ -12,6 +12,63 @@ Stivens Camilo Guevara Moran
 ## Descripción de la solución planteada  <!--  el proceso de alistamiento, herramientas y piezas utilizadas -->
 
 
+## Primera Etapa: Modelado
+
+En esta etapa se diseñó un **gripper** capaz de cumplir con los siguientes requerimientos:
+
+1. Recoger arepas  
+2. Soltar arepas  
+3. Voltear arepas  
+
+El diseño se basó en un caso típico para levantar un alimento circular y plano. Se utilizó una pinza circular hueca con el diámetro apropiado para las arepas: cada parte de la pinza está formada por un semicírculo de radio 45 mm. En los extremos (superior e inferior), se añadió una inclinación de 45° para facilitar la recolección.
+
+Tanto la herramienta como su acople al **flange** del robot se realizaron considerando las dimensiones del actuador neumático, que abre con el pistón hacia arriba y cierra con el pistón hacia abajo.
+
+También se definieron las dimensiones de los **estantes** y de la **parrilla** donde se colocarían las arepas.
+
+---
+
+## Segunda Etapa: Simulación en RobotStudio
+
+Una vez diseñado el modelo, se importó al entorno de **RobotStudio**. Allí se definió el **TCP** (Tool Center Point) en el centro del gripper, y se programaron las trayectorias necesarias para las tareas.
+
+Se definieron tres objetos de trabajo (**Wobj**):
+
+- **Wobj1:** Puntos de seguridad como *Home* y posiciones de espera.  
+- **Wobj2:** Asociado al estante; sus puntos se usaron para recoger las arepas en posiciones fijas.  
+- **Wobj3:** Puntos para realizar la acción de voltear y colocar las arepas después de 10 segundos por cada lado.
+
+---
+
+## Tercera Etapa: Programación en RAPID y Señales de Activación
+
+Con las trayectorias establecidas, se modificó el archivo `main` en RAPID. Aquí se implementaron:
+
+- Variables de **tiempo** y **sensado**, para verificar la disponibilidad de arepas en las posiciones seleccionadas por el usuario mediante el **HMI**.
+- Activación de señales digitales `DO_04` y `DO_05`, utilizadas luego en el entorno físico para controlar el agarre y liberación de las arepas.
+
+---
+
+## Cuarta Etapa: Diseño del HMI
+
+Se utilizó **ScreenMaker** para crear una interfaz gráfica que permitiera controlar de forma intuitiva las trayectorias del robot.
+
+Los botones del HMI fueron enlazados a las variables de activación definidas en RAPID, facilitando la interacción del usuario.
+
+---
+
+## Quinta Etapa: Implementación Física
+
+Se utilizó una **válvula 5/3** conectada mediante mangueras neumáticas. Las características de la instalación fueron:
+
+- **Manguera de 6 mm:** Conexión entre el robot y la válvula.  
+- **Manguera de 4 mm:** Conexión entre la válvula y el actuador neumático de doble efecto.  
+- Las señales `DO_04` y `DO_05` fueron conectadas mediante un cable **RJ45**, siguiendo el diagrama de conexión provisto por el fabricante del robot.
+
+---
+
+
+
 
 
 ## Diagrama de Flujo  <!-- descripciones-->
