@@ -133,5 +133,5 @@ La vista del entorno de simulación se puede encontrar en [Vista de Simulación]
 El código del módulo que define el movimiento del manipulador se encuentra en [Código](https://github.com/jordoneze/Proyecto_Robotica/blob/main/Archivos/ModuloProyecto.mod).  
 Y el archivo correspondiente al ScreenMaker se puede encontrar en [ScreenMaker](https://github.com/jordoneze/Proyecto_Robotica/blob/main/Archivos/InterfazProyecto.smk).
 ## Video
-
+https://drive.google.com/file/d/168MHpZpHJfSdeCW-tX6u5Ziy7PjsNp8P/view?usp=sharing
 
