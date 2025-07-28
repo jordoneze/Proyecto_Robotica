@@ -124,7 +124,7 @@ A continuación, se presentan algunas imágenes del gripper utilizado para el de
 
 ## Código implementado en RAPID.
 El código del módulo que define el movimiento del manipulador se encuentra en [Código](https://github.com/jordoneze/Proyecto_Robotica/blob/main/Archivos/ModuloProyecto.mod).  
-Y el archivo correspondiente al ScreenMaker se puede encontrar en [ScreenMaker](https://github.com/jordoneze/Proyecto_Robotica/blob/main/Archivos/InterfazProyecto.smk)
+Y el archivo correspondiente al ScreenMaker se puede encontrar en [ScreenMaker](https://github.com/jordoneze/Proyecto_Robotica/blob/main/Archivos/InterfazProyecto.smk).
 ## Video
 
 
